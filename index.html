@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e9b594c844.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="omlogo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li> 
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>      
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FOOD TECHOLOGISTS</p>
+                <h1> Hi, I'm <span>Omkar</span></h1><span>Malvade <br>From Mumbai</span></br></h1>
+            </div>
+        </div>
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="om2.jpg" alt="Omkar's Image">
+                    </div>
+                    <div class="about-col-2">
+        
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            Hello! I'm Omkar Dhananjay Malvade, a dedicated student pursuing a BTech in Food Technology Engineering and currently in my third year of a BA. 
+                            <br>I have a strong interest in music and sports, having achieved first place in the Harmonium Examination at Gandharva Mahavidyalaya Mandal, Mumbai, and represented my state in the Sub Junior Handball National Championship. 
+                            <br>Passionate about using my skills to make a positive impact, I’m constantly learning and eager to take on new challenges in both academics and personal growth."
+                            <br>Let me know if there’s anything you’d like to add or adjust!                            
+                        </p>
+        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('achievement')">Achievement</p>
+                            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+        
+                        <div class="tab-contents active-tab" id="achievement">
+                            <ul>
+                                <li><span>2024-Current</span><br>Selected in an internal HACKATHON. We presented our innovative product named "Nutri Hacks".</li>
+                                <li><span>2023-2024</span><br>Awarded 1st prize in Harmonium University Examinations conducted by Shivaji University, Kolhapur.</li>
+                                <li><span>2019-2020</span><br>Achieved a National Level Certificate in Handball at the 36th Sub-Junior Handball Championship in 2019.</li>
+                                <li><span>2018-2019</span><br>Achieved 1st rank in Harmonium Examination held by Akhil Bhartiya Gandharv Mahavidyalaya Mandal, Mumbai.</li>
+                            </ul>
+                        </div>
+        
+                        <div class="tab-contents" id="skills">
+                            <ul>
+                                <li><span>FOOD TECHNOLOGIST</span><br>A Food Technologist specializes in the science of food production, preservation, and safety.</li>
+                                <li><span>FOOD PACKAGING</span><br>Protects, preserves, transports, informs, ensures safety.</li>
+                                <li><span>FOOD PROCESSING</span><br>Transforms, preserves, enhances, and ensures food safety.</li>
+                            </ul>
+                        </div>
+        
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024-Current</span><br>Currently pursuing a BTech in Food Technology Engineering.</li>
+                                <li><span>2024-Current</span><br>Pursuing final year in Bachelor in Arts.</li>
+                                <li><span>2022-2021</span><br>HSC-State Board Examination - 81%</li>
+                                <li><span>2019-2020</span><br>SSC-State Board Examination - 80%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="services">
+            <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div> 
+                    <h2>Food Packaging</h2>
+                    <p>Food packaging services ensure food safety, freshness, and quality through custom designs and sustainable materials.</p>
+                <a href="#">Learn more</a>
+                </div>
+                <div> 
+                    <h2>Food Processing</h2>
+                    <p>Food processing transforms raw ingredients into consumable products by cleaning, cooking, and preserving, enhancing food safety, taste, and shelf life.</p>
+                <a href="#">Learn more</a>
+                </div>
+                <div> 
+                    <h2>Product Development</h2>
+                    <p>Product development involves creating new products or improving existing ones through research, design, testing, and refinement, aiming to meet consumer needs and market demands.</p>
+                <a href="#">Learn more</a>
+                </div>
+            </div>
+            </div>
+            </div>
+<!------------------------portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-titles">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="1726257598167.jpg">
+                <div class="layer">
+                    <h3>Our Product"Nutri Hacks"</h3>
+                    <p>This product aims to combine the best of nutrition and health, providing essential proteins and immunity-boosting ingredients to support a healthy lifestyle.</p>
+                      <a href="#"><i class="fa-solid fa-bowl-food"></i></a>
+                </div>
+        </div>
+        <div class="work">
+            <img src="image.png">
+            <div class="layer">
+                    <h3>Ganesh Chaturthi</h3>
+                    <p>I have been honored for my performances in Dance and Drama during the Ganesh Chaturthi Programs organized by Shree Sahyadri Ganesh Utsav Mandal, Kalwa! </p>
+                      <a href="#"><i class="fa-solid fa-bomb"></i></a>
+                </div>
+    </div>
+    <div class="work">
+        <img src="1726257587669.jpg">
+        <div class="layer">
+                    <h3>Our Product"Nutri Hacks"</h3>
+                    <p>Without any use of “Drugs”, “Chemicals”, “Preservatives”, and “Additives”. Grateful for the opportunity to showcase our idea, and we can’t wait to take it to the next level!</p>
+                      <a href="#"><i class="fa-solid fa-bomb"></i></a>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+        <!---------------------contact----------->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                   <div class="contact-left">
+                    <h1 class="sub-titles">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>malvadeomkar2005@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8898110999</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/omkar_malvade_10?igsh=MTVvb2k4YWd5aTUx"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/omkar-malvade-8635ab256?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BxC%2FVwdOOTu2jkSn74xZyWA%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="portfolio.jpg" download class="btn btn2">Download CV</a>
+                   </div>
+                   <div class="contact-right">
+                         <form> 
+                            <input type="text" name="Name" placeholder="Your Name" required >
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea mane="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                         </form>
+                   </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <script>
+            function opentab(tabName) {
+                var i, tabcontent, tablinks;
+        
+                // Hide all tabs
+                tabcontent = document.getElementsByClassName("tab-contents");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].classList.remove("active-tab");
+                }
+        
+                // Remove active class from all tab links
+                tablinks = document.getElementsByClassName("tab-links");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].classList.remove("active-link");
+                }
+        
+                // Show the clicked tab and add active class to the clicked link
+                document.getElementById(tabName).classList.add("active-tab");
+                event.currentTarget.classList.add("active-link");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
